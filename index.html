@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>RedStore | Ecommerce Website Design</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>RedStore | Ecommerce</title>
+    <link rel="stylesheet" href="/styles/style.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
@@ -50,13 +50,12 @@
       </div>
     </div>
 
-    <!-- Featured Products -->
-
+    <!-- PRODUTOS -->
     <div class="small-container">
       <h2 class="title">Produtos mais vendidos</h2>
       <div class="row">
-        <div class="col-4">
-          <a href="product_details.html"><img src="images/product-1.jpg" /></a>
+        <div class="col-4" id="red-shirt">
+          <a href="product_details.html?id=1"><img src="images/product-1.jpg" /></a>
           <h4>Red Printed T-Shirt</h4>
           <div class="rating">
             <i class="fa fa-star"></i>
@@ -68,7 +67,7 @@
           <p>$50.00</p>
         </div>
         <div class="col-4">
-          <img src="images/product-2.jpg" />
+          <a href="product_details.html?id=2"><img src="images/product-2.jpg" /></a>
           <h4>Red Printed T-Shirt</h4>
           <div class="rating">
             <i class="fa fa-star"></i>
@@ -80,7 +79,7 @@
           <p>$50.00</p>
         </div>
         <div class="col-4">
-          <img src="images/product-3.jpg" />
+          <a href="product_details.html?id=3"><img src="images/product-3.jpg" /></a>
           <h4>Red Printed T-Shirt</h4>
           <div class="rating">
             <i class="fa fa-star"></i>
@@ -92,7 +91,7 @@
           <p>$50.00</p>
         </div>
         <div class="col-4">
-          <img src="images/product-4.jpg" />
+          <a href="product_details.html?id=4"><img src="images/product-4.jpg" /></a>
           <h4>Red Printed T-Shirt</h4>
           <div class="rating">
             <i class="fa fa-star"></i>
@@ -107,7 +106,7 @@
       <h2 class="title">Últimos Lançamentos</h2>
       <div class="row">
         <div class="col-4">
-          <img src="images/product-5.jpg" />
+          <a href="product_details.html?id=5"><img src="images/product-5.jpg" /></a>
           <h4>Red Printed T-Shirt</h4>
           <div class="rating">
             <i class="fa fa-star"></i>
@@ -119,7 +118,7 @@
           <p>$50.00</p>
         </div>
         <div class="col-4">
-          <img src="images/product-6.jpg" />
+          <a href="product_details.html?id=6"><img src="images/product-6.jpg" /></a>
           <h4>Red Printed T-Shirt</h4>
           <div class="rating">
             <i class="fa fa-star"></i>
@@ -131,7 +130,7 @@
           <p>$50.00</p>
         </div>
         <div class="col-4">
-          <img src="images/product-7.jpg" />
+          <a href="product_details.html?id=7"><img src="images/product-7.jpg" /></a>
           <h4>Red Printed T-Shirt</h4>
           <div class="rating">
             <i class="fa fa-star"></i>
@@ -143,7 +142,7 @@
           <p>$50.00</p>
         </div>
         <div class="col-4">
-          <img src="images/product-8.jpg" />
+          <a href="product_details.html?id=8"><img src="images/product-8.jpg" /></a>
           <h4>Red Printed T-Shirt</h4>
           <div class="rating">
             <i class="fa fa-star"></i>
@@ -157,7 +156,7 @@
       </div>
       <div class="row">
         <div class="col-4">
-          <img src="images/product-9.jpg" />
+          <a href="product_details.html?id=9"><img src="images/product-9.jpg" /></a>
           <h4>Red Printed T-Shirt</h4>
           <div class="rating">
             <i class="fa fa-star"></i>
@@ -169,7 +168,7 @@
           <p>$50.00</p>
         </div>
         <div class="col-4">
-          <img src="images/product-10.jpg" />
+          <a href="product_details.html?id=10"><img src="images/product-10.jpg" /></a>
           <h4>Red Printed T-Shirt</h4>
           <div class="rating">
             <i class="fa fa-star"></i>
@@ -181,7 +180,7 @@
           <p>$50.00</p>
         </div>
         <div class="col-4">
-          <img src="images/product-11.jpg" />
+          <a href="product_details.html?id=11"><img src="images/product-11.jpg" /></a>
           <h4>Red Printed T-Shirt</h4>
           <div class="rating">
             <i class="fa fa-star"></i>
@@ -193,7 +192,7 @@
           <p>$50.00</p>
         </div>
         <div class="col-4">
-          <img src="images/product-12.jpg" />
+          <a href="product_details.html?id=12"><img src="images/product-12.jpg" /></a>
           <h4>Red Printed T-Shirt</h4>
           <div class="rating">
             <i class="fa fa-star"></i>
@@ -207,7 +206,7 @@
       </div>
     </div>
 
-    <!-- Footer -->
+    <!-- FOOTER -->
     <div class="footer">
       <div class="container">
         <div class="row">
@@ -250,18 +249,6 @@
       </div>
     </div>
 
-    <!-- javascript -->
-
-    <script>
-      var MenuItems = document.getElementById("MenuItems");
-      MenuItems.style.maxHeight = "0px";
-      function menutoggle() {
-        if (MenuItems.style.maxHeight == "0px") {
-          MenuItems.style.maxHeight = "200px";
-        } else {
-          MenuItems.style.maxHeight = "0px";
-        }
-      }
-    </script>
+    <script src="./script/index.js"></script>
   </body>
 </html>
