@@ -89,7 +89,7 @@ const productTexts = [
     productPrice: "R$1750.00",
     productDetails:
       "O relógio Fossi é uma peça de alta qualidade e estilo atemporal. Com um design sofisticado e detalhes cuidadosamente trabalhados, ele é uma escolha elegante para homens e mulheres que apreciam acessórios refinados.",
-    productImgSrc: "images/product-8.jpg",
+    productImgSrc: "images/product-8.webp",
     productImgSrcSmall_1: "images/product-8.webp",
     productImgSrcSmall_2: "images/small-img-8__2.webp",
     productImgSrcSmall_3: "images/small-img-8__3.webp",

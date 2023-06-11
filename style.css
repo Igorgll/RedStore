@@ -328,6 +328,50 @@ th:last-child {
   max-height: 0;
 }
 
+.about__redStore {
+  padding: 50px 20px;
+}
+
+.about__redStore h1 {
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.about__redStore h1::after, h2::after {
+  content: "";
+  position: absolute;
+  bottom: 3px;
+  left: 0;
+  width: 100%;
+  border-bottom: 2px solid #000;
+}
+
+.about__redStore h2 {
+  margin-top: 20px;
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.about__redStore p {
+  color: #000;
+}
+
+.differences {
+  display: flex;
+  flex-direction: column;
+  list-style: disc;
+  gap: 10px;
+  padding-left: 40px;
+}
+
+.red {
+  color: #FF5138;
+}
+
+.store {
+  color: #454444;
+}
+
 /* MEDIA QUERY MENU */
 @media only screen and (max-width: 800px) {
   nav ul {
